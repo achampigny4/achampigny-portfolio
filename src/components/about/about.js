@@ -28,7 +28,7 @@ class About extends Component {
                                             <div className="single-post-content-wrapper p-3 col-sm-12 col-md-12 col-lg-12">
                                                 <p id="about">Hello,
                                             <br /><br />    My name is Alissa. I am a Full-Stack Web Developer based out of Kingston, New Hampshire.
-                                            I have been a medical professional for 11 years and now I am beginning a career on the software side.
+                                            I have been a medical professional for 11 years and now I am beginning a career switch to the software side.
                                             <br /><br />    In my free time, I enjoy spending time with my dog, going on adventures abroad and locally, and playing in the New England Pinball League.
                                             </p>
                                             </div>
