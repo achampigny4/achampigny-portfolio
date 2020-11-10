@@ -9,7 +9,7 @@
 
 ## Contact Developer
 
-[Alissa's Portfolio](https://achampigny4.github.io/AlissaC-ResponsivePortfolio/portfolio.html) and [Github Profile](https://github.com/achampigny4)
+[Alissa's Portfolio](https://alissa-champigny.herokuapp.com/) and [Github Profile](https://github.com/achampigny4)
 
 Email Address: achampigny4@gmail.com
 
