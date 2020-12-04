@@ -33,7 +33,7 @@ class About extends Component {
                                                             Full-Stack Developer <br /> <br />
                                                         </Card.Text>
                                                         <div className="card-img-overlay d-flex align-items-end justify-content-center">
-                                                            <a className="text-info" href=""><i className="fab fa-github fa-lg" /></a>
+                                                            <a className="text-info" href="https://github.com/dylanbest15/Job-Trackr/tree/Alissa"><i className="fab fa-github fa-lg" /></a>
                                                         </div>
                                                     </Card.Body>
                                                 </Card>
