@@ -1,29 +1,8 @@
 import React, { Component } from 'react';
-import { Navbar, Container, Nav, NavItem } from 'react-bootstrap';
+import { Navbar, Container } from 'react-bootstrap';
 
 class MyNav extends Component {
   render() {
-    //                 <Navbar>
-    //                     <Navbar.Header>
-    //                         <Navbar.Brand>
-    //                             <Link to="/">Alissa Champigny</Link>
-    //                         </Navbar.Brand>
-    //                         <Navbar.Toggle />
-    //                     </Navbar.Header>
-    //                     <Navbar.Collapse>
-    //                         <Nav pullRight>
-    //                             <NavItem eventKey={1} ComponentClass={Link} href="/" to="/">
-    //                                 About
-    //                         </NavItem>
-    //                             <NavItem eventKey={2} ComponentClass={Link} href="/Portfolio" to="/Portfolio">
-    //                                 Portfolio
-    //                         </NavItem>
-    //                             <NavItem eventKey={3} ComponentClass={Link} href="/Contact" to="/Contact">
-    //                                 Contact
-    //                         </NavItem>
-    //                         </Nav>
-    //                     </Navbar.Collapse>
-    //                 </Navbar>
     return (
       <Navbar className="navbar bg-info m-0 py-0 px-0 px-md-5">
         <Container>
