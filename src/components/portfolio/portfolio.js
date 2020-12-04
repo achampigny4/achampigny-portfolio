@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './portfolio.css';
+import { CardGroup, Card } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 class About extends Component {
     render() {
@@ -17,129 +19,150 @@ class About extends Component {
                                 <h1 className="display-4 text-info">Portfolio</h1>
                                 {/* divider under title */}
                                 <div className="dropdown-divider" />
-                                {/* portfolio project cards */}
-                                <div className="card-group">
-                                    <div className="card-deck">
-                                        {/* project 1 */}
-                                        <div className="col mb-4">
-                                            <div className="card">
-                                                {/* project img */}
-                                                <img src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/readmegenerator.png" className="card-img-top" alt="Readme Generator screenshot" />
-                                                {/* button location */}
-                                                <div className="card-img-overlay d-flex align-items-end justify-content-center">
-                                                    {/* button style */}
-                                                    <button type="button" className="btn btn-info">
-                                                        {/* link and text style */}
-                                                        <a href="https://github.com/achampigny4/ReadMeGenerator" target="_blank" style={{ textAlign: 'center', color: 'rgb(255, 255, 255)' }}>Readme Generator</a>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {/* project 2 */}
-                                        <div className="col mb-4">
-                                            <div className="card">
-                                                {/* project img */}
-                                                <img src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/team.png" className="card-img-top" alt="Team Profile Generator" />
-                                                {/* button location */}
-                                                <div className="card-img-overlay d-flex align-items-end justify-content-center">
-                                                    {/* button style */}
-                                                    <button type="button" className="btn btn-info">
-                                                        {/* link and text style */}
-                                                        <a href="https://github.com/achampigny4/TeamProfileGenerator" target="_blank" style={{ textAlign: 'center', color: 'rgb(255, 255, 255)' }}>Team Profile</a>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {/* project 3 */}
-                                        <div className="col mb-4">
-                                            <div className="card">
-                                                {/* project img */}
-                                                <img src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/adultsOnly.png" className="card-img-top" alt="Adults Only Petfinder website" />
-                                                {/* button location */}
-                                                <div className="card-img-overlay d-flex align-items-end justify-content-center">
-                                                    {/* button style */}
-                                                    <button type="button" className="btn btn-info">
-                                                        {/* link and text style */}
-                                                        <a href="https://github.com/achampigny4/adults-pet-finder" target="_blank" style={{ textAlign: 'center', color: 'rgb(255, 255, 255)' }}>Adults Only Petfinder</a>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {/* project 4 */}
-                                        <div className="col mb-4">
-                                            <div className="card">
-                                                {/* project img */}
-                                                <img src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/budgettracker.png" className="card-img-top" alt="Screenshot of budget tracker application" />
-                                                {/* button location */}
-                                                <div className="card-img-overlay d-flex align-items-end justify-content-center">
-                                                    {/* button style */}
-                                                    <button type="button" className="btn btn-info">
-                                                        {/* link and text style */}
-                                                        <a href="https://github.com/achampigny4/budget-tracker" target="_blank" style={{ textAlign: 'center', color: 'rgb(255, 255, 255)' }}>Budget Tracker</a>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {/* project 5 card */}
-                                        <div className="col mb-4">
-                                            <div className="card">
-                                                {/* project img */}
-                                                <img src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/workdayscheduler.png" className="card-img-top" />
-                                                {/* button location */}
-                                                <div className="card-img-overlay d-flex align-items-end justify-content-center">
-                                                    {/* button style */}
-                                                    <button type="button" className="btn btn-info">
-                                                        <a href="https://github.com/achampigny4/WorkDayScheduler" target="_blank" style={{ textAlign: 'center', color: 'rgb(255, 255, 255)' }}>Work Day Scheduler</a>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {/* project 6 card */}
-                                        <div className="col mb-4">
-                                            <div className="card">
-                                                {/* project img */}
-                                                <img src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/burger.png" className="card-img-top" alt="Burgers and Brew Application" />
-                                                {/* button location */}
-                                                <div className="card-img-overlay d-flex align-items-end justify-content-center">
-                                                    {/* button style */}
-                                                    <button type="button" className="btn btn-info">
-                                                        <a href="https://github.com/achampigny4/burger" target="_blank" style={{ textAlign: 'center', color: 'rgb(255, 255, 255)' }}>Burgers and Brew!</a>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {/* project 7 card */}
-                                        <div className="col mb-4">
-                                            <div className="card">
-                                                {/* project img */}
-                                                <img src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/weWorkout.png" className="card-img-top" alt="We Workout Application" />
-                                                {/* button location */}
-                                                <div className="card-img-overlay d-flex align-items-end justify-content-center">
-                                                    {/* button style */}
-                                                    <button type="button" className="btn btn-info">
-                                                        <a href="https://github.com/achampigny4/we-workout" target="_blank" style={{ textAlign: 'center', color: 'rgb(255, 255, 255)' }}>We Workout</a>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {/* Resume pdf card */}
-                                        <div className="col mb-4">
-                                            <div className="card">
-                                                {/* project img */}
-                                                <img src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/resume.png" className="card-img-top" alt="Resume" />
-                                                {/* button location */}
-                                                <div className="card-img-overlay d-flex align-items-end justify-content-center">
-                                                    {/* button style */}
-                                                    <button type="button" className="btn btn-info">
-                                                        <a href="https://docs.google.com/document/d/e/2PACX-1vQuGFR0s8Ukhg5mXMot1g7kVOPsa-A_uwF-uxsXzzbpOi7pDotXiteHsDoEOIFi4V6xFAJKzi30EHQi/pub" target="_blank" style={{ textAlign: 'center', color: 'rgb(255, 255, 255)' }}>Resume</a>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {/* card-deck */}
-                                    </div>
-                                    {/* card-group */}
-                                </div>
+
+                                <Container>
+                                    <Row>
+                                        <CardGroup>
+
+                                            <Col lg={4}>
+                                                <Card>
+                                                    <Card.Img variant="top" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/jobTrackr.png" alt="Job Trackr login page" />
+                                                    <Card.Body>
+                                                        <Card.Title><h5 className="text-info">Job Trackr</h5></Card.Title>
+                                                        <Card.Text>
+                                                            Full-Stack Developer <br /> <br />
+                                                        </Card.Text>
+                                                        <div className="card-img-overlay d-flex align-items-end justify-content-center">
+                                                            <a className="text-info" href=""><i className="fab fa-github fa-lg" /></a>
+                                                        </div>
+                                                    </Card.Body>
+                                                </Card>
+                                            </Col>
+
+                                            <Col lg={4}>
+                                                <Card>
+                                                    <Card.Img variant="top" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/weWorkout.png" alt="We Workout Application" />
+                                                    <Card.Body>
+                                                        <Card.Title><h5 className="text-info">We Work Out App</h5></Card.Title>
+                                                        <Card.Text>
+                                                            Full-Stack Developer <br /> <br />
+                                                        </Card.Text>
+                                                        <div className="card-img-overlay d-flex align-items-end justify-content-center">
+                                                            <a className="text-info" href="https://github.com/achampigny4/we-workout"><i className="fab fa-github fa-lg" /></a>
+                                                        </div>
+                                                    </Card.Body>
+                                                </Card>
+                                            </Col>
+
+                                            <Col lg={4}>
+                                                <Card>
+                                                    <Card.Img variant="top" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/adultsOnly.png" alt="Adults Only Petfinder website" />
+                                                    <Card.Body>
+                                                        <Card.Title><h5 className="text-info">Adults Only Petfinder</h5></Card.Title>
+                                                        <Card.Text>
+                                                            Front-End Developer <br /> <br />
+                                                        </Card.Text>
+                                                        <div className="card-img-overlay d-flex align-items-end justify-content-center">
+                                                            <a className="text-info" href="https://github.com/achampigny4/adults-pet-finder"><i className="fab fa-github fa-lg" /></a>
+                                                        </div>
+                                                    </Card.Body>
+                                                </Card>
+                                            </Col>
+
+                                            <Col lg={4}>
+                                                <Card>
+                                                    <Card.Img variant="top" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/resume.png" alt="Resume" />
+                                                    <Card.Body>
+                                                        <Card.Title><h5 className="text-info">Resume</h5></Card.Title>
+                                                        <Card.Text>
+                                                            Full-Stack Developer <br /> <br />
+                                                        </Card.Text>
+                                                        <div className="card-img-overlay d-flex align-items-end justify-content-center">
+                                                            <a className="text-info" href="https://docs.google.com/document/d/e/2PACX-1vQuGFR0s8Ukhg5mXMot1g7kVOPsa-A_uwF-uxsXzzbpOi7pDotXiteHsDoEOIFi4V6xFAJKzi30EHQi/pub"><i className="fas fa-file-alt fa-lg" /></a>
+                                                        </div>
+                                                    </Card.Body>
+                                                </Card>
+                                            </Col>
+
+                                            <Col lg={4}>
+                                                <Card>
+                                                    <Card.Img variant="top" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/burger.png" alt="Burgers and Brew Application" />
+                                                    <Card.Body>
+                                                        <Card.Title><h5 className="text-info">Burgers and Brew</h5></Card.Title>
+                                                        <Card.Text>
+                                                            Full-Stack Developer <br /> <br />
+                                                        </Card.Text>
+                                                        <div className="card-img-overlay d-flex align-items-end justify-content-center">
+                                                            <a className="text-info" href="https://github.com/achampigny4/burger"><i className="fab fa-github fa-lg" /></a>
+                                                        </div>
+                                                    </Card.Body>
+                                                </Card>
+                                            </Col>
+
+                                            <Col lg={4}>
+                                                <Card>
+                                                    <Card.Img variant="top" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/workdayscheduler.png" alt="screenshot of workday scheduler" />
+                                                    <Card.Body>
+                                                        <Card.Title><h5 className="text-info">Work Day Scheduler</h5></Card.Title>
+                                                        <Card.Text>
+                                                            Full-Stack Developer <br /> <br />
+                                                        </Card.Text>
+                                                        <div className="card-img-overlay d-flex align-items-end justify-content-center">
+                                                            <a className="text-info" href="https://github.com/achampigny4/WorkDayScheduler"><i className="fab fa-github fa-lg" /></a>
+                                                        </div>
+                                                    </Card.Body>
+                                                </Card>
+                                            </Col>
+
+                                            <Col lg={4}>
+                                                <Card>
+                                                    <Card.Img variant="top" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/budgettracker.png" alt="Budget tracker app" />
+                                                    <Card.Body>
+                                                        <Card.Title><h5 className="text-info">Progressive Budget Tracker</h5></Card.Title>
+                                                        <Card.Text>
+                                                            Back-End Developer <br /> <br />
+                                                        </Card.Text>
+                                                        <div className="card-img-overlay d-flex align-items-end justify-content-center">
+                                                            <a className="text-info" href="https://github.com/achampigny4/budget-tracker"><i className="fab fa-github fa-lg" /></a>
+                                                        </div>
+                                                    </Card.Body>
+                                                </Card>
+                                            </Col>
+
+                                            <Col lg={4}>
+                                                <Card>
+                                                    <Card.Img variant="top" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/teamGenerator.png" alt="command prompt screen shot" />
+                                                    <Card.Body>
+                                                        <Card.Title><h5 className="text-info">Team Generator</h5></Card.Title>
+                                                        <Card.Text>
+                                                            Full-Stack Developer <br /> <br />
+                                                        </Card.Text>
+                                                        <div className="card-img-overlay d-flex align-items-end justify-content-center">
+                                                            <a className="text-info" href="https://github.com/achampigny4/TeamProfileGenerator"><i className="fab fa-github fa-lg" /></a>
+                                                        </div>
+                                                    </Card.Body>
+                                                </Card>
+                                            </Col>
+
+                                            <Col lg={4}>
+                                                <Card>
+                                                    <Card.Img variant="top" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/readmegenerator.png" alt="command prompt screen shot" />
+                                                    <Card.Body>
+                                                        <Card.Title><h5 className="text-info">Readme.md Generator</h5></Card.Title>
+                                                        <Card.Text>
+                                                            Full-Stack Developer <br /> <br />
+                                                        </Card.Text>
+                                                        <div className="card-img-overlay d-flex align-items-end justify-content-center">
+                                                            <a className="text-info" href="https://github.com/achampigny4/achampigny-portfolio/blob/main/public/images/readmegenerator.png"><i className="fab fa-github fa-lg" /></a>
+                                                        </div>
+                                                    </Card.Body>
+                                                </Card>
+                                            </Col>
+
+                                        </CardGroup>
+                                    </Row>
+                                </Container>
+
                                 {/* shadow p-4 mb-4 bg-white rounded */}
                             </div>
                             {/* responsive */}
