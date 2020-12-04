@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, Container } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 class MyNav extends Component {
   render() {
@@ -11,10 +12,10 @@ class MyNav extends Component {
           </Navbar.Brand>
           <ul className="nav justify-content-center justify-content-md-end">
             <li className="nav-item">
-              <a className="nav-link text-light" href="./">About</a>
+              <NavLink className="nav-link text-light" to="/">About</NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" href="./portfolio">Portfolio</a>
+              <NavLink className="nav-link text-light" to="/Portfolio">Portfolio</NavLink>
             </li>
           </ul>
         </Container>
