@@ -153,7 +153,7 @@ class About extends Component {
                                                             Full-Stack Developer <br /> <br />
                                                         </Card.Text>
                                                         <div className="card-img-overlay d-flex align-items-end justify-content-center">
-                                                            <a className="text-info" href="https://github.com/achampigny4/achampigny-portfolio/blob/main/public/images/readmegenerator.png"><i className="fab fa-github fa-lg" /></a>
+                                                            <a className="text-info" href="https://github.com/achampigny4/ReadMeGenerator"><i className="fab fa-github fa-lg" /></a>
                                                         </div>
                                                     </Card.Body>
                                                 </Card>
