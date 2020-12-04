@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import MyNav from '../src/components/navbar/nav';
 import About from '../src/components/about/about';
@@ -8,11 +8,13 @@ import MyFooter from '../src/components/footer/footer';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/achampigny-portfolio">
       <div>
         <MyNav />
-        <Route exact path="/" component={About} />
-        <Route path="/Portfolio" component={Portfolio} />
+        <Switch>
+          <Route path="/" component={About} />
+          <Route path="/portfolio" component={Portfolio} />
+        </Switch>
         <MyFooter />
       </div>
     </Router>
