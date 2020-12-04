@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Card } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 // import { Container, Row, Col, Image } from 'react-bootstrap';
 import './about.css';
 
@@ -46,28 +46,6 @@ class About extends Component {
                 {/* blank row after card*/}
                 <div className="row space" />
             </div>
-            /* //     <Container>
-                //         <Row className="text-center">
-                    //             <Col xs={12} sm={4} sm-offset={2} className="wrapper">
-                        //                 <Image src="public/images/rattlesnakemtn.jpg" rounded className="about-profile-pic" />
-    //                 <h3>About Me</h3>
-    //                 <p>about me paragraphs here</p>
-    //             </Col>
-    //         </Row>
-    //     </Container>
-    {/* /* <Container>
-                <row>
-                    <header className="App-header">
-                        <Card className="shadow-small bg-white rounded">
-                            <Card.Img width="200px" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/profilepic.jpg" />
-                            <Card.Body className="d-flex flex-column">
-                                <Card.Title className="font-weight-bold">Alissa Champigny</Card.Title>
-                                <Card.Text>Full Stack Web Developer</Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </header>
-                </row>
-            </Container> */
         );
     }
 }
