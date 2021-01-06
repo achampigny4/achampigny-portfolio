@@ -4,6 +4,7 @@ import './App.css';
 import MyNav from '../src/components/navbar/nav';
 import About from '../src/components/about/about';
 import Portfolio from './components/portfolio/portfolio';
+import Contact from './components/contact/contact';
 import MyFooter from '../src/components/footer/footer';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={About} />
           <Route path="/Portfolio" component={Portfolio} />
+          <Route path="/Contact" component={Contact} />
         </Switch>
         <MyFooter />
       </div>
