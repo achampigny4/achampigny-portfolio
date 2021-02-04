@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 // import './contact.css';
-import { CardGroup, Card } from 'react-bootstrap';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 class Contact extends Component {
     render() {
@@ -24,9 +23,17 @@ class Contact extends Component {
                                 <div className="dropdown-divider" />
 
                                 <Container>
-                                    <Row>
-                                       
-                                    </Row>
+                                    <div className="single-post-content-wrapper p-3 col-sm-12 col-md-12 col-lg-12">
+                                        <p>
+                                            <b>Email: </b> achampigny4@gmail.com
+                                            <br /><br />
+                                            <b>Phone Number: </b> 1 (603) 793-2449
+                                            <br /><br />
+                                            <b>Github: </b> https://github.com/achampigny4
+                                                <br /><br />
+                                            <b>LinkedIn: </b> https://www.linkedin.com/in/alissa-champigny-b1171a1a5/
+                                            </p>
+                                    </div>
                                 </Container>
 
                                 {/* shadow p-4 mb-4 bg-white rounded */}
