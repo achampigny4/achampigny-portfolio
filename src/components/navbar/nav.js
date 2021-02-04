@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, Container } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+// import Name from '../name/name';
 
 class MyNav extends Component {
   render() {
@@ -9,6 +10,7 @@ class MyNav extends Component {
         <Container>
           <Navbar.Brand className="m-0 p-3 col-12 col-md-4">
             <h1 className="display-5"><strong>Alissa Champigny</strong></h1>
+          {/* <Name /> */}
           </Navbar.Brand>
           <ul className="nav justify-content-center justify-content-md-end">
             <li className="nav-item">
@@ -17,9 +19,9 @@ class MyNav extends Component {
             <li className="nav-item">
               <NavLink className="nav-link text-light" to="/Portfolio">Portfolio</NavLink>
             </li>
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <NavLink className="nav-link text-light" to="/Contact">Contact</NavLink>
-            </li> */}
+            </li>
           </ul>
         </Container>
       </Navbar>
