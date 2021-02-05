@@ -37,7 +37,7 @@ class About extends Component {
                                             <br /><br />
                                             <b>Programming Languages: </b> HTML, CSS, Javascript.
                                             <br /><br />
-                                            <b>Technical Skills: </b> React, Jquery, responsive design, Bootstrap, Materialize, Material UI,  Node.js, OOP, SQL, NoSQL, MongoDB, Sequelize, AJAX, APIs, Express.js, Handlebars.js, Github, Heidi SQL, Heroku, analytical skills, search engine optimization, testing and debugging.
+                                            <b>Technical Skills: </b> React, Jquery, responsive design, Bootstrap, Materialize, Material UI,  Node.js, OOP, SQL, MySQL, NoSQL, Heidi SQL, Workbench SQL, MongoDB, Sequelize, AJAX, APIs, Express.js, Handlebars.js, Github, Heroku, analytical skills, search engine optimization, testing and debugging.
                                             <br /><br />
                                             <b>Fun Fact: </b> I am a member of The New England Pinball League.
                                             </p>
