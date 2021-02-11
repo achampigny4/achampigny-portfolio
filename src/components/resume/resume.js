@@ -17,7 +17,7 @@ function Resume() {
                 {/* card contents */}
                 <div className="container">
                     <div className="embed-responsive embed-responsive-16by9">
-                        <iframe src="https://docs.google.com/document/d/e/2PACX-1vSpNdlLp8l7lQeHGKZ5aMWKflh6Q_LFDDbQbZL3WLCDpXvBfGiNBvaDP8Yy7OPPONSbPG75jnJhMBqZ/pub?embedded=true"></iframe>
+                        <iframe title="Resume-Alissa-Champigny" src="https://docs.google.com/document/d/e/2PACX-1vSpNdlLp8l7lQeHGKZ5aMWKflh6Q_LFDDbQbZL3WLCDpXvBfGiNBvaDP8Yy7OPPONSbPG75jnJhMBqZ/pub?embedded=true"></iframe>
                     </div>
                 </div>
             </div>
