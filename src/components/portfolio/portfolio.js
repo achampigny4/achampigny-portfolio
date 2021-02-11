@@ -92,7 +92,7 @@ class Portfolio extends Component {
                                                             Full-Stack Developer <br /> <br />
                                                         </Card.Text>
                                                         <div className="card-img-overlay d-flex align-items-end justify-content-center">
-                                                            <a className="text-info" href="https://docs.google.com/document/d/e/2PACX-1vQuGFR0s8Ukhg5mXMot1g7kVOPsa-A_uwF-uxsXzzbpOi7pDotXiteHsDoEOIFi4V6xFAJKzi30EHQi/pub"><i className="fas fa-file-alt fa-lg" /></a>
+                                                            <a className="text-info" href="https://docs.google.com/document/d/e/2PACX-1vSpNdlLp8l7lQeHGKZ5aMWKflh6Q_LFDDbQbZL3WLCDpXvBfGiNBvaDP8Yy7OPPONSbPG75jnJhMBqZ/pub"><i className="fas fa-file-alt fa-lg" /></a>
                                                             {/* <a className="text-info" href="/AlissaChampignyResume.pdf" download="AlissaChampignyResume"><i class="fas fa-download fa-lg"/></a> */}
                                                         </div>
                                                     </Card.Body>
