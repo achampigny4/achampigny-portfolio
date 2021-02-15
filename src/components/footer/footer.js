@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class MyFooter extends Component {
   render() {
     return (
-      <nav className="navbar bottom navbar-light bg-light justify-content-center">
+      <nav className="navbar fixed-bottom navbar-light bg-light justify-content-center">
         <div className="row container justify-content-center">
           <p className="text-info mb-0">Connect</p>
         </div>
