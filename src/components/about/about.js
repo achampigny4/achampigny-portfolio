@@ -53,7 +53,7 @@ class About extends Component {
                     </form>
                 </Container>
                 {/* blank row after card*/}
-                <div className="row space" />
+                <div className="row mb-5" />
             </div>
         );
     }
