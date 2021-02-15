@@ -199,7 +199,7 @@ class Portfolio extends Component {
                     {/* blank column on side */}
                 </div>
                 {/* blank row after card*/}
-                <div className="row mb-5" />
+                <div className="row space" />
             </div>
         );
     }
