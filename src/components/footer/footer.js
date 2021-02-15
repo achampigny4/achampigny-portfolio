@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import './footer.css';
 
 class MyFooter extends Component {
   render() {
     return (
       <nav className="navbar fixed-bottom navbar-light bg-light justify-content-center">
         <div className="row container justify-content-center">
-          <p className="text-info mb-0">Connect</p>
+          <h6 className="text-info mb-0">Connect</h6>
         </div>
         <ul className="nav justify-content-center">
           <li className="nav-item">
@@ -21,7 +22,7 @@ class MyFooter extends Component {
             <a className="nav-link text-info" href="https://www.linkedin.com/in/alissa-champigny-b1171a1a5/"><i className="fab fa-linkedin" /></a>
           </li>
           <div className="row container justify-content-center">
-            <p className="text-info">©Copyright</p>
+            <p className="copyright text-info mb-0 mt-0">©Copyright</p>
           </div>
         </ul>
       </nav>
