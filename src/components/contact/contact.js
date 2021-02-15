@@ -1,29 +1,25 @@
 import React, { Component } from 'react';
 // import './contact.css';
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 class Contact extends Component {
     render() {
         return (
-            <div>
-                {/* blank row above card */}
-                <div className="row mb-5" />
-                {/* blank col */}
-                <div className="container co 14 offset-12 s12 align wrapper">
-                    {/* card backgroud style */}
-                    <form className="p-4 mb-4 bg-light text-dark border rounded border-info">
-                        <div className="responsive">
-                            <div className="shadow p-4 mb-4 bg-white rounded">
-                                {/* header */}
-                                <h2 className="text-info">
-                                    <img className="waveIcon" alt="wave" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/icon.png" />
+            <Container>
+                <Row className="justify-content-center">
+                    <Col md="auto" className="mt-4 mb-4">
+                        {/* card backgroud style */}
+                        <form className="p-4 bg-light rounded justify-content-center">
+                            <div className="responsive">
+                                <div className="shadow p-4 bg-white rounded">
+                                    {/* header */}
+                                    <h2 className="text-info">
+                                        <img className="waveIcon" alt="wave" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/icon.png" />
                                 Contact
                                 </h2>
-                                {/* divider under title */}
-                                <div className="dropdown-divider" />
-
-                                <Container>
-                                    <div className="single-post-content-wrapper p-3 col-sm-12 col-md-12 col-lg-12">
+                                    {/* divider under title */}
+                                    <div className="dropdown-divider" />
+                                    <div className="single-post-content-wrapper p-3">
                                         <p>
                                             <b>Email: </b> achampigny4@gmail.com
                                             <br /><br />
@@ -34,18 +30,12 @@ class Contact extends Component {
                                             <b>LinkedIn: </b> https://www.linkedin.com/in/alissa-champigny-b1171a1a5/
                                             </p>
                                     </div>
-                                </Container>
-
-                                {/* shadow p-4 mb-4 bg-white rounded */}
+                                </div>
                             </div>
-                            {/* responsive */}
-                        </div>
-                    </form>
-                    {/* blank column on side */}
-                </div>
-                {/* blank row after card*/}
-                <div className="row mb-5" />
-            </div>
+                        </form>
+                    </Col>
+                </Row>
+            </Container>
         );
     }
 }
