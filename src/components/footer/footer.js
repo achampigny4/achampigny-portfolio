@@ -3,7 +3,10 @@ import React, { Component } from 'react';
 class MyFooter extends Component {
   render() {
     return (
-      <nav className="navbar fixed-bottom navbar-light bg-light justify-content-center">
+      <nav className="navbar bottom navbar-light bg-light justify-content-center">
+        <div className="row container justify-content-center">
+          <p className="text-info mb-0">Connect</p>
+        </div>
         <ul className="nav justify-content-center">
           <li className="nav-item">
             <a className="nav-link text-info" href="mailto:achampigny4@gmail.com"><i className="fas fa-envelope" /></a>
@@ -17,10 +20,9 @@ class MyFooter extends Component {
           <li className="nav-item">
             <a className="nav-link text-info" href="https://www.linkedin.com/in/alissa-champigny-b1171a1a5/"><i className="fab fa-linkedin" /></a>
           </li>
-          <div className="row container d-flex flex-column">
-            <ul className="d-sm-flex d-block flex-nonwrap text-capitalize text-info">
-              <p>©Copyright</p>
-            </ul></div>
+          <div className="row container justify-content-center">
+            <p className="text-info">©Copyright</p>
+          </div>
         </ul>
       </nav>
     );
