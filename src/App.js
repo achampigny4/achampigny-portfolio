@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import MyNav from '../src/components/navbar/nav';
 import About from '../src/components/about/about';
-import Portfolio from './components/portfolio/portfolio';
-import Contact from './components/contact/contact';
+import Portfolio from '../src/components/portfolio/portfolio';
+import Contact from '../src/components/contact/contact';
 import MyFooter from '../src/components/footer/footer';
-import Resume from './components/resume/resume';
+import Resume from '../src/components/resume/resume';
 
 function App() {
   return (
