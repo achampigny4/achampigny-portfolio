@@ -15,6 +15,7 @@ class MyNav extends Component {
           <Nav>
             <NavLink className="nav-link text-light" to="/">About</NavLink>
             <NavLink className="nav-link text-light" to="/Portfolio">Portfolio</NavLink>
+            <NavLink className="nav-link text-light" to="/Resume">Resume</NavLink>
             <NavLink className="nav-link text-light" to="/Contact">Contact</NavLink>
           </Nav>
         </Navbar.Collapse>
