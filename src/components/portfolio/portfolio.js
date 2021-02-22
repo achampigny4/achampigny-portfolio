@@ -23,13 +23,16 @@ class Portfolio extends Component {
 
                                     <Col lg={4}>
                                         <Card
-                                            style={{ height: '350px' }}
+                                            style={{ height: 'auto' }}
                                             className="mb-2">
                                             <Card.Img variant="top" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/jobTrackr.png" alt="Job Trackr login page" />
                                             <Card.Body>
                                                 <Card.Title><h5 className="text-info">Job Trackr</h5></Card.Title>
                                                 <Card.Text>
-                                                    Full-Stack Developer <br /> <br />
+                                                    <b>Full-Stack Developer and Project Manager</b> for a remote job search application that allows the user to track each step of the application process all in one location. This app resolves the need for multiple logins on multiple sites to find the status of their job application.
+                                                    <br /> <br />
+                                                    <b>Technologies:</b> HTML, CSS, Javascript, Material-UI, React.js, Remotive API, Node.js, Axios, Express.js, Concurrently, Passport.js, Bcrypt.js, MySQL, Sequelize, Heroku, Dotenv, ESLint, nodemon
+                                                    <br /> <br />
                                                 </Card.Text>
                                                 <div className="card-img-overlay d-flex align-items-end justify-content-center">
                                                     <a className="text-info" href="https://github.com/dylanbest15/Job-Trackr/tree/Alissa"><i className="fab fa-github fa-lg" /></a>
