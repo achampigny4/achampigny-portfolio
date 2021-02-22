@@ -27,7 +27,7 @@ class Portfolio extends Component {
                                             className="mb-2">
                                             <Card.Img variant="top" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/jobTrackr.png" alt="Job Trackr login page" />
                                             <Card.Body>
-                                                <Card.Title><h5 className="text-info">Job Trackr</h5></Card.Title>
+                                                <Card.Title><h4 className="text-info">Job Trackr</h4></Card.Title>
                                                 <Card.Text>
                                                     <b>Full-Stack Developer and Project Manager</b> for a remote job search application that allows the user to track each step of the application process all in one location. This app resolves the need for multiple logins on multiple sites to find the status of their job application.
                                                     <br /> <br />
@@ -48,7 +48,7 @@ class Portfolio extends Component {
                                             className="mb-2">
                                             <Card.Img variant="top" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/weWorkout.png" alt="We Workout Application" />
                                             <Card.Body>
-                                                <Card.Title><h5 className="text-info">We Work Out App</h5></Card.Title>
+                                                <Card.Title><h4 className="text-info">We Work Out App</h4></Card.Title>
                                                 <Card.Text>
                                                     <b>Developer</b> for mobile friendly fitness application which allows users who infrequently workout to easily exercise at home. We Workout’s database provides premade workouts, exercise explanations and the ability to create personalized workouts.
                                                     <br /> <br />
@@ -65,13 +65,18 @@ class Portfolio extends Component {
 
                                     <Col lg={4}>
                                         <Card
-                                            style={{ height: '350px' }}
+                                            style={{ height: 'auto' }}
                                             className="mb-2">
                                             <Card.Img variant="top" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/adultsOnly.png" alt="Adults Only Petfinder website" />
                                             <Card.Body>
-                                                <Card.Title><h5 className="text-info">Adults Only Petfinder</h5></Card.Title>
+                                                <Card.Title><h4 className="text-info">Adults Only Petfinder</h4></Card.Title>
                                                 <Card.Text>
-                                                    Front-End Developer <br /> <br />
+                                                    <b>Front end Developer</b> for comedic browser-based application in which a user over 18 years old can be matched with a randomized pet profile. Underage users are provided with resources to learn about pet adoption.
+                                                    <br /> <br />
+                                                    <b>Technologies:</b> Materialize css framework, JQuery, Animate.css, Scrollreveal.js, Font Awesome, Google Fonts, Embed Responsively.
+                                                    <br /> <br />
+                                                    <b>Server-side APIs:</b> Dog.ceo, Thecatapi.com, Placegoat.com, Flickr.
+                                                    <br /> <br />
                                                 </Card.Text>
                                                 <div className="card-img-overlay d-flex align-items-end justify-content-center">
                                                     <a className="text-info" href="https://github.com/achampigny4/adults-pet-finder"><i className="fab fa-github fa-lg" /></a>
@@ -87,7 +92,7 @@ class Portfolio extends Component {
                                             className="mb-2">
                                             <Card.Img variant="top" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/resume.png" alt="Resume" />
                                             <Card.Body>
-                                                <Card.Title><h5 className="text-info">Resume</h5></Card.Title>
+                                                <Card.Title><h4 className="text-info">Resume</h4></Card.Title>
                                                 <Card.Text>
                                                     Full-Stack Developer <br /> <br />
                                                 </Card.Text>
@@ -105,7 +110,7 @@ class Portfolio extends Component {
                                             className="mb-2">
                                             <Card.Img variant="top" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/burger.png" alt="Burgers and Brew Application" />
                                             <Card.Body>
-                                                <Card.Title><h5 className="text-info">Burgers and Brew</h5></Card.Title>
+                                                <Card.Title><h4 className="text-info">Burgers and Brew</h4></Card.Title>
                                                 <Card.Text>
                                                     Full-Stack Developer <br /> <br />
                                                 </Card.Text>
@@ -123,7 +128,7 @@ class Portfolio extends Component {
                                             className="mb-2">
                                             <Card.Img variant="top" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/workdayscheduler.png" alt="screenshot of workday scheduler" />
                                             <Card.Body>
-                                                <Card.Title><h5 className="text-info">Work Day Scheduler</h5></Card.Title>
+                                                <Card.Title><h4 className="text-info">Work Day Scheduler</h4></Card.Title>
                                                 <Card.Text>
                                                     Full-Stack Developer <br /> <br />
                                                 </Card.Text>
@@ -137,11 +142,11 @@ class Portfolio extends Component {
 
                                     <Col lg={4}>
                                         <Card
-                                            style={{ height: '410px' }}
+                                            style={{ height: 'auto' }}
                                             className="mb-2">
                                             <Card.Img variant="top" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/budgettracker.png" alt="Budget tracker app" />
                                             <Card.Body>
-                                                <Card.Title><h5 className="text-info">Progressive Budget Tracker</h5></Card.Title>
+                                                <Card.Title><h4 className="text-info">Progressive Budget Tracker</h4></Card.Title>
                                                 <Card.Text>
                                                     Back-End Developer <br /> <br />
                                                 </Card.Text>
@@ -159,7 +164,7 @@ class Portfolio extends Component {
                                             className="mb-2">
                                             <Card.Img variant="top" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/teamGenerator.png" alt="command prompt screen shot" />
                                             <Card.Body>
-                                                <Card.Title><h5 className="text-info">Team Generator</h5></Card.Title>
+                                                <Card.Title><h4 className="text-info">Team Generator</h4></Card.Title>
                                                 <Card.Text>
                                                     Full-Stack Developer <br /> <br />
                                                 </Card.Text>
@@ -176,7 +181,7 @@ class Portfolio extends Component {
                                             className="mb-2">
                                             <Card.Img variant="top" src="https://raw.githubusercontent.com/achampigny4/achampigny-portfolio/main/public/images/readmegenerator.png" alt="command prompt screen shot" />
                                             <Card.Body>
-                                                <Card.Title><h5 className="text-info">Readme.md Generator</h5></Card.Title>
+                                                <Card.Title><h4 className="text-info">Readme.md Generator</h4></Card.Title>
                                                 <Card.Text>
                                                     Full-Stack Developer <br /> <br />
                                                 </Card.Text>
